@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Root element with language set to English -->
+<head>
+    <meta charset="UTF-8">     <!-- Document metadata container -->
+    <title>Pizza Ordering Form</title>
+</head>
+<body>
+<!-- Main page heading -->
+<h1>Pizza Ordering Form</h1>
+
+<!-- Added form element -->
+<form id="pizzaForm">
+<!-- Subheading for contact section -->
+<h2>Contact Information</h2>
+<table>
+    <tr> <!-- Input fields -->
+        <td>Name:</td>
+        <td><input type="text" name="name" required></td> <!-- Added name and required -->
+    </tr>
+    <tr>
+        <td>Phone:</td>
+        <td><input type="tel" name="phone" required></td> <!-- Changed type to tel and added name/required -->
+    </tr>
+    <tr>
+        <td>Email:</td>
+        <td><input type="email" name="email" required></td> <!-- Changed type to email and added name/required -->
+    </tr>
+</table>
+
+<h3>Select Pizza Size</h3> 
+<label for="size">Pizza Size:</label>
+<select id="size" name="size" required>
+    <!-- Dropdown menu -->
+    <option value="">--Select Size--</option> 
+    <option value="medium">Medium</option>
+    <option value="large">Large</option>
+    <option value="xlarge">XLarge</option>
+</select>
+
+
+<h3>Select Sauce</h3>
+<!-- Added value attributes and required to first radio button -->
+<input type="radio" name="sauce" value="marinara" required> Marinara<br>
+<input type="radio" name="sauce" value="ranch"> Ranch<br>
+<input type="radio" name="sauce" value="none"> No Sauce
+
+<h3>Select Toppings</h3>
+<table>
+    <tr>
+        <td><input type="checkbox"> Pepperoni</td>
+        <td><input type="checkbox"> Sausage</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox"> Mushroom</td>
+        <td><input type="checkbox"> Pineapple</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox"> Peppers</td>
+        <td><input type="checkbox"> Onions</td>
+    </tr>
+</table>
+
+<h3>Additional Instructions</h3>
+<textarea rows="4" cols="25">Add instructions</textarea><br><br>
+<input type="submit" value="Submit"> <!-- Submit button -->
+
+</form> <!-- Closing form tag -->
+
+<br><br>
+
+<h3>List of My Favorite Games</h3>
+ <table border="1">
+    <tr>
+        <th>Developer</th>
+        <th>Title</th>
+        <th>Year</th>
+    </tr>
+    <tr>
+        <td rowspan="3">Bungie</td>
+        <td>Halo</td>
+        <td>2001</td>
+    </tr>
+    <tr>
+        <td>Halo 2</td>
+        <td>2004</td>
+    </tr>
+    <tr>
+        <td>Halo 3</td>
+        <td>2007</td>
+    </tr>
+    <tr>
+        <td>Mojang</td>
+        <td>Minecraft</td>
+        <td>2011</td>
+    </tr>
+    <tr>
+        <td colspan="3">Count: 4</td>
+    </tr>
+</table>
+
+</body>
+</html>
+
+<!-- End of HTML document -->

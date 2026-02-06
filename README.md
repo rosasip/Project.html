@@ -9,7 +9,6 @@ Requirements:
   For the Favorite Video Game table, at least one vertical and at least one horizontal merged cell should be present.
   At least 4 games should be listed.  Semantic HTML must be used.
   The W3C Validator tool must not find any error with the markup.  A warning for the Table Border attribute is acceptable.
-  Students will push their code to their GitHub IO page and submit the URL to this assignment's solution.
 
 
 Final Look: 
